@@ -67,7 +67,7 @@ class Entry(models.Model):
 		max_length=1,
 		choices=T_CHOICES,
 		blank=True,
-		default='n',
+		default='u',
 		help_text='Testing state',
 	)
 
@@ -81,7 +81,7 @@ class Entry(models.Model):
 		max_length=1,
 		choices=R_CHOICES,
 		blank=True,
-		default='n',
+		default='u',
 		help_text='Result state',
 	)
 
@@ -94,7 +94,7 @@ class Entry(models.Model):
 		max_length=1,
 		choices=M_CHOICES,
 		blank=True,
-		default='n',
+		default='u',
 		help_text='Method used',
 	)
 

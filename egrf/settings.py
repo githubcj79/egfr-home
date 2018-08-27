@@ -120,3 +120,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+SUBJECTID_DATAFILE = os.path.join(BASE_DIR, 'egrf/data/SubjectID.txt')
+VARIANT_DATAFILE = os.path.join(BASE_DIR, 'egrf/data/Variants.txt')
